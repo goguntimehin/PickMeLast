@@ -9,7 +9,7 @@ import {DataService} from '../data.service';
 })
 export class NavComponent implements OnInit {
 
-  appTitle = 'HB Lab 4 Final';
+  appTitle = 'PickMeLast';
   show:boolean;
 
   constructor(private data: DataService) {
