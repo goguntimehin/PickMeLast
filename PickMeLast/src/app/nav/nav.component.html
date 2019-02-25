@@ -1,0 +1,16 @@
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo">{{appTitle}}</a>
+    <nav>
+      <ul>
+        <li><a  *ngIf="show" routerLink="/home">Home</a></li>
+        <li><a  *ngIf="show" routerLink="/about">About Us</a> </li>
+        <li><a  *ngIf="show" routerLink="/contact">Contact Us</a> </li>
+        <li><a  *ngIf="!show" routerLink="/login">Login</a></li>
+        <li><a  *ngIf="!show" routerLink="/register">Register</a></li>
+        <li><a  *ngIf="show">Hi Admin</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
